@@ -1,16 +1,16 @@
 import React from "react";
-import { useLang } from "../../LangProvider";
+/* import { useLang } from "../../LangProvider"; */
 
 export default function JoinWaitingList() {
-  const { t } = useLang();
+  /* const { t } = useLang(); */
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-neutral-light text-neutral-dark px-4 ">
-      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-artisan-midnight mt-20">
+{/*       <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-artisan-midnight mt-20">
         {t("joinWaitingListTitle")}
       </h2>
       <p className="mb-8 text-center max-w-md text-artisan-midnight">
         {t("joinWaitingListText")}
-      </p>
+      </p> */}
       <div className="w-full max-w-2xl">
         <iframe
           title="google-forms"

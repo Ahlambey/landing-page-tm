@@ -1,14 +1,14 @@
 export const translations = {
   en: {
-    heroTitle1: "You create by ",
-    heroHand: "hand",
+    heroTitle1: "You craft with ",
+    heroHand: "soul",
     heroTitle2: ". Now sell with ",
-    heroConfidence: "confidence",
+    heroConfidence: "pride",
     heroTitle3: ".",
     heroSubtitle:
-      "Get your own professional online shop — built for artisans like you.",
-    heroNote: "Only 20 spots available. 6,000 DA/year. Lifetime perks.",
-    cta: "Get Started",
+      "A beautiful online shop, made for Algerian artisans.",
+    heroNote: "Reserve your spot among the first artisans.",
+    cta: "I want to join",
     shopMockupTitle: "Your Store, Their First Impression",
     shopMockupText:
       "Here’s how your store looks to customers: clean, professional, and built to earn trust.",
@@ -40,15 +40,15 @@ export const translations = {
     whatsapp: "WhatsApp",
   },
   fr: {
-    heroTitle1: "Vous créez à la ",
-    heroHand: "main",
+    heroTitle1: "Vous créez avec ",
+    heroHand: "passion.",
     heroTitle2: "Vendez maintenant avec",
-    heroConfidence: "confiance",
+    heroConfidence: "fierté",
     heroTitle3: ".",
     heroSubtitle:
-      "Obtenez votre propre boutique en ligne professionnelle — conçue pour les artisans comme vous.",
-    heroNote: "Seulement 20 places disponibles. 6 000 DA/an. Avantages à vie.",
-    cta: "Commencer",
+      "Une boutique en ligne élégante, pensée pour les artisans algériens.",
+    heroNote: "Réservez votre place parmi les premiers artisans.",
+    cta: "Je veux rejoindre",
     shopMockupTitle: "Votre boutique, leur première impression",
     shopMockupText:
       "Voici ce que voient vos clients : une vitrine claire, pro, et qui inspire confiance.",
@@ -81,14 +81,14 @@ export const translations = {
   },
   ar: {
     heroTitle1: "أنت تصنع",
-    heroHand: "بيدك",
+    heroHand: "بشغف",
     heroTitle2: " الآن بيع بكل",
     heroConfidence: " ثقة",
     heroTitle3: ".",
     heroSubtitle:
-      "احصل على متجرك الإلكتروني الاحترافي الخاص بك - مصمم للحرفيين مثلك.",
-    heroNote: "متوفر فقط 20 مكانًا. 6000 دينار جزائري/سنة. مزايا مدى الحياة.",
-    cta: "ابدأ الآن",
+      "متجر إلكتروني أنيق، مصمم خصيصًا للحرفيين الجزائريين",
+    heroNote: "احجز مكانك بين أول الحرفيين",
+    cta: "أريد الانضمام",
     shopMockupTitle: "متجرك هو أول انطباع",
     shopMockupText:
       "هكذا يرى الزبائن متجرك: أنيق، احترافي، ويمنح الثقة.",
