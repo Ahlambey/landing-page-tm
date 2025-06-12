@@ -1,9 +1,9 @@
 export const translations = {
   en: {
     heroTitle1: "You craft with ",
-    heroHand: "soul",
-    heroTitle2: ". Now sell with ",
-    heroConfidence: "pride",
+    heroHand: "love",
+    heroTitle2: ". Now sell",
+    heroConfidence: "professionally",
     heroTitle3: ".",
     heroSubtitle:
       "A beautiful online shop, made for Algerian artisans.",
@@ -41,9 +41,9 @@ export const translations = {
   },
   fr: {
     heroTitle1: "Vous créez avec ",
-    heroHand: "passion.",
-    heroTitle2: "Vendez maintenant avec",
-    heroConfidence: "fierté",
+    heroHand: "amour.",
+    heroTitle2: " Maintenant, vendez comme",
+    heroConfidence: "un pro",
     heroTitle3: ".",
     heroSubtitle:
       "Une boutique en ligne élégante, pensée pour les artisans algériens.",
@@ -80,10 +80,10 @@ export const translations = {
     whatsapp: "WhatsApp",
   },
   ar: {
-    heroTitle1: "أنت تصنع",
-    heroHand: "بشغف",
-    heroTitle2: " الآن بيع بكل",
-    heroConfidence: " ثقة",
+    heroTitle1: "تصنع",
+    heroHand: "بحُب",
+    heroTitle2:  " الآن بِع",
+    heroConfidence: " باحتراف",
     heroTitle3: ".",
     heroSubtitle:
       "متجر إلكتروني أنيق، مصمم خصيصًا للحرفيين الجزائريين",
