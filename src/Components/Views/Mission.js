@@ -7,6 +7,11 @@ export default function Mission() {
   const { t } = useLang();
 
   const handleClick = () => {
+    //google analytics
+    window.gtag("event", "click", {
+      event_category: "CTA",
+      event_label: "join waiting list btn",
+    });
     //go to the waiting list page
     navigate("/join-waiting-list");
   };

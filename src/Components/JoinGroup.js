@@ -3,6 +3,14 @@ import { useLang } from "../LangProvider";
 
 export default function JoinGroup() {
   const { t } = useLang();
+
+  const btnClick = () => {
+    //google analytics
+    window.gtag("event", "click", {
+      event_category: "CTA",
+      event_label: "join group btn",
+    });
+  };
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-neutral-light text-neutral-dark px-4">
       {/* SVG Illustration */}
@@ -27,6 +35,7 @@ export default function JoinGroup() {
         <button
           style={{ backgroundColor: "#25D366", color: "#fff" }}
           className="px-8 py-4 font-bold rounded-full hover:brightness-90 transition"
+          onClick={() => btnClick()}
         >
           {t("joinGroupCTA")}
         </button>
