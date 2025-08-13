@@ -25,7 +25,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-end justify-center lg:min-w-full">
       {/* Background Image */}
       <img
-        src="/hero.jpg"
+        src="/hero.webp"
         alt="Hero Background"
         className="absolute inset-0 w-full h-full object-cover brightness-50 "
       />

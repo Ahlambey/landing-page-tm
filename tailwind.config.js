@@ -30,7 +30,14 @@ module.exports = {
           gold: '#FFC300',       // CTA buttons, highlights
           sunbeam: '#FFD60A',    // Text highlights, hover, arrows
           pearl: '#f8fafc',   // Light text on dark background
-          tmBlue: 'oklch(74.6% 0.16 232.661)'
+          tmBlue: 'oklch(74.6% 0.16 232.661)',
+          lightGray: "#d1d5db",
+          lighterGray: "#EFF2F5",
+          teaRose: "#FFC6C6",
+          bitterSweetRed: "#FF5454",
+          teaGreenLight: "#E6FFC6", 
+          teaGreen:"#95C654",
+          yellowGreen: "#98D548"
         },
       },
   },

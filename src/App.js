@@ -10,9 +10,11 @@ import JoinWaitingList from "./Components/Views/JoinWaitingList";
 import Credits from "./Components/Views/Credits";
 import Footer from "./Components/Views/Footer";
 import Contact  from "./Components/Views/Contact";
+import GetYourProShop from "./Components/Views/GetYourProShop"
 import AOS from "aos";
 import { useLang } from "./LangProvider";
 import "aos/dist/aos.css";
+import { Languages } from 'lucide-react';
 
 function HomeSections() {
   return (
@@ -26,9 +28,9 @@ function HomeSections() {
       <section className="min-h-screen flex items-center justify-center bg-secondary text-white">
         <CustomMockup />
       </section>
-      <section className="min-h-screen flex items-center justify-center bg-accent text-white bg-artisan-midnight ">
+{/*       <section className="min-h-screen flex items-center justify-center bg-accent text-white bg-artisan-midnight ">
         <Mission />
-      </section>
+      </section> */}
       <section className="min-h-screen flex items-center justify-center bg-neutral-dark text-neutral-light">
         <JoinGroup />
       </section>
@@ -70,7 +72,7 @@ const navbarBg =
               aria-label="Select language"
             >
               <option value="" disabled>
-                🌐
+                lang
               </option>
               <option value="en">EN</option>
               <option value="fr">FR</option>
@@ -85,6 +87,7 @@ const navbarBg =
         <Route path="/join-waiting-list" element={<JoinWaitingList />} />
         <Route path="/credits" element={<Credits />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/get-your-pro-shop" element={<GetYourProShop/>}/>
         {/* Add more routes as needed */}
       </Routes>
       <Footer/>

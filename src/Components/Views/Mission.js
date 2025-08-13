@@ -16,7 +16,7 @@ export default function Mission() {
     navigate("/join-waiting-list");
   };
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-neutral-light text-neutral-dark px-4 lg:flex-row lg:justify-between lg:w-2/3">
+    <div className="h-full flex flex-col items-center justify-center bg-neutral-light text-neutral-dark px-4 lg:flex-row lg:justify-between lg:w-2/3">
       {/* SVG Illustration */}
       <img
         src="./Team-goals-cuate.svg" // Replace with your actual SVG file path

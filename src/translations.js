@@ -1,21 +1,23 @@
 export const translations = {
   en: {
-    heroTitle1: "You craft with ",
-    heroHand: "love",
-    heroTitle2: ". Now sell",
-    heroConfidence: "professionally",
+    heroTitle1: "Where",
+    heroHand: "Posts",
+    heroTitle2: ". Become",
+    heroConfidence: "Sales",
     heroTitle3: ".",
     heroSubtitle:
-      "A beautiful online shop, made for Algerian artisans.",
-    heroNote: "Reserve your spot among the first artisans.",
+      "You’ve shown them the story. Now show them the “buy” button. ",
+    heroNote: "Reserve your spot among the first retailers.",
     cta: "I want to join",
-    shopMockupTitle: "Your Store, Their First Impression",
+    shopMockupTitle: "Make them take you seriously.",
     shopMockupText:
-      "Here’s how your store looks to customers: clean, professional, and built to earn trust.",
+      "Stand out with a professional storefront.",
+      carouselTitle1: "What's getting in your way?",
     shopMockupCTA: "Get Your Shop Now",
-    customMockupTitle: "Let Them Personalize It!",
+    customMockupTitle: "Take Back Control",
     customMockupText:
-      "Customers can customize their orders and feel part of the process, just like they would in your workshop.",
+      "A complete system that organizes your orders.",
+      carouselTitle2: "Losing time and energy managing orders?",
     customMockupCTA: "Get Your Shop Now",
     missionTitle: "Start Your Artisan Journey with Us!",
     missionText:
@@ -38,24 +40,30 @@ export const translations = {
     copy: "Copy",
     contactOnWhatsApp: "Contact us on WhatsApp",
     whatsapp: "WhatsApp",
+    seeSolution: "See solution",
+    wantToJoin:"I want to join!"
+
   },
   fr: {
-    heroTitle1: "Vous créez avec ",
-    heroHand: "amour.",
-    heroTitle2: " Maintenant, vendez comme",
-    heroConfidence: "un pro",
+    heroTitle1: "Là où vos ",
+    heroHand: "publications.",
+    heroTitle2: " deviennent",
+    heroConfidence: "des ventes ",
     heroTitle3: ".",
     heroSubtitle:
-      "Une boutique en ligne élégante, pensée pour les artisans algériens.",
-    heroNote: "Réservez votre place parmi les premiers artisans.",
+      "Vous leur avez raconté l’histoire. Montrez-leur maintenant le bouton « acheter ».",
+    heroNote: "Réservez votre place parmi les premiers.",
     cta: "Je veux rejoindre",
-    shopMockupTitle: "Votre boutique, leur première impression",
+    shopMockupTitle: "Faites en sorte qu’ils vous prennent au sérieux.",
     shopMockupText:
-      "Voici ce que voient vos clients : une vitrine claire, pro, et qui inspire confiance.",
+      "Distinguiez-vous avec une vitrine professionnelle.",
     shopMockupCTA: "Obtenez votre boutique",
-    customMockupTitle: "Laissez vos clients personnaliser !",
+    carouselTitle1: "Qu’est-ce qui vous freine ?",
+    customMockupTitle: "Reprenez le contrôle.",
     customMockupText:
-      "Vos clients peuvent personnaliser leurs commandes et vivre une vraie expérience artisanale. Comme s’ils étaient dans votre atelier.",
+      "Un système complet qui organise vos commandes",
+      carouselTitle2: "Vous perdez du temps et de l’énergie à gérer les commandes ?",
+
     customMockupCTA: "Obtenez votre boutique",
     missionTitle: "Commencez votre aventure artisanale avec nous !",
     missionText:
@@ -78,24 +86,31 @@ export const translations = {
     copy: "Copier",
     contactOnWhatsApp: "Contactez-nous sur WhatsApp",
     whatsapp: "WhatsApp",
+    seeSolution: "Voir la solution",
+    wantToJoin:"Je veux rejoindre !"
+
+
   },
   ar: {
-    heroTitle1: "تصنع",
-    heroHand: "بحُب",
-    heroTitle2:  " الآن بِع",
-    heroConfidence: " باحتراف",
+    heroTitle1: "حيث تتحوّل",
+    heroHand: "منشوراتك",
+    heroTitle2:  " إلى",
+    heroConfidence: " مبيعات",
     heroTitle3: ".",
     heroSubtitle:
-      "متجر إلكتروني أنيق، مصمم خصيصًا للحرفيين الجزائريين",
-    heroNote: "احجز مكانك بين أول الحرفيين",
+      "لقد عرضتَ عليهم القصة، فاعرض لهم الآن زر الشراء",
+    heroNote: "احجز مكانك ",
     cta: "أريد الانضمام",
-    shopMockupTitle: "متجرك هو أول انطباع",
-    shopMockupText:
-      "هكذا يرى الزبائن متجرك: أنيق، احترافي، ويمنح الثقة.",
+    shopMockupTitle: "اجعلهم يأخذونك على محمل الجدّ",
+    shopMockupText: "تميّز بواجهة متجر احترافية",
     shopMockupCTA: "احصل على متجرك الآن",
-    customMockupTitle: "دع الزبائن يخصصون طلباتهم",
-    customMockupText: "الزبائن يمكنهم تخصيص طلباتهم والشعور بأنهم جزء من التجربة  تمامًا كما لو كانوا في ورشتك",
+    carouselTitle1: "واش راه يعطل فيك؟",
+
+    customMockupTitle: "استعد السيطرة",
+    customMockupText: "نظام متكامل ينظم طلباتك",
     customMockupCTA: "احصل على متجرك الآن",
+      carouselTitle2: "هل تضيع وقتك وجهدك في إدارة الطلبات؟",
+
     missionTitle: "ابدأ رحلتك الحرفية معنا",
     missionText:
       "نحن هنا لنمنح الحرفيين مساحة تُفهم فيها طبيعة الحرفة واحتياجاتها. نصغي لكم، ونبني حلولاً من أجلكم",
@@ -116,5 +131,7 @@ export const translations = {
     copy: "نسخ",
     contactOnWhatsApp: "تواصل معنا على واتساب",
     whatsapp: "واتساب",
+    seeSolution: "شاهد الحل",
+    wantToJoin: "أريد الانضمام",
   },
 };
