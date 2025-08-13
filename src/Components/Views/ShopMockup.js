@@ -82,7 +82,7 @@ import CarouselWithDrawer from "./CarouselWithDrawer";
 ]; */
 
 
-const data = [
+/* const data = [
   {
     title: "Your product, your price",
     subtitle: "Tired of People Always Bargaining with You on Social Media?",
@@ -152,7 +152,7 @@ const data = [
     link2text: "",
     textColor: "dark",
   },
-];
+]; */
 
 const dataAr = [
   {

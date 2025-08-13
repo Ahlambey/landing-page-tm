@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import Hero from "./Components/Views/Hero";
 import JoinGroup from "./Components/JoinGroup";
-import Mission from "./Components/Views/Mission";
+/* import Mission from "./Components/Views/Mission"; */
 import CustomMockup from "./Components/Views/CustomMockup";
 import ShopMockup from "./Components/Views/ShopMockup";
 import JoinWaitingList from "./Components/Views/JoinWaitingList";
@@ -14,7 +14,7 @@ import GetYourProShop from "./Components/Views/GetYourProShop"
 import AOS from "aos";
 import { useLang } from "./LangProvider";
 import "aos/dist/aos.css";
-import { Languages } from 'lucide-react';
+
 
 function HomeSections() {
   return (

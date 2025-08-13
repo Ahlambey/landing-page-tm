@@ -3,7 +3,7 @@ import { useLang } from "../../LangProvider";
 
 import CarouselWithDrawer from "./CarouselWithDrawer";
 
-const data = [
+/* const data = [
   {
     title: "Return overwhelm",
 
@@ -95,7 +95,7 @@ const data = [
     link2text: "",
     textColor: "light",
   },
-/*   {
+  {
     title: "Build long lasting relationship",
 
     subtitle: "They Ordered Once… Then Disappeared",
@@ -113,9 +113,9 @@ const data = [
     link2: "",
     link2text: "",
     textColor: "dark",
-  }, */
+  },
 
-];
+]; */
 
 const dataAr = [
   {
